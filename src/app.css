@@ -15,39 +15,6 @@ body {
 	font-family: 'DESPORM', sans-serif;
 }
 
-nav.sticky-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1em;
-	background: rgba(255, 255, 255, 0.1);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-	position: sticky;
-	top: 0;
-	z-index: 1000;
-	color: #000;
-}
-
-nav.sticky-header .logo {
-	height: 50px;
-}
-
-nav.sticky-header ul {
-	list-style: none;
-	display: flex;
-	gap: 1em;
-}
-
-nav.sticky-header li {
-	margin: 0;
-}
-
-nav.sticky-header a {
-	color: #000;
-	text-decoration: none;
-}
-
 .hero,
 .tokenomics,
 .gameplay,
@@ -58,9 +25,4 @@ nav.sticky-header a {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-}
-
-ul {
-	list-style: none;
-	padding: 0;
 }
