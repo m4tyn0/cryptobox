@@ -4,9 +4,11 @@
 	import Hero from '../lib/components/Hero.svelte';
 	import About from '../lib/components/About.svelte';
 	import Footer from '../lib/components/Footer.svelte';
+	import Pump from '../lib/components/Pump.svelte';
 
 	import '../app.css';
 </script>
+<Pump />
 
 <Header />
 <main>

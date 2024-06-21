@@ -1,8 +1,8 @@
 <script>
 </script>
 
-<section id="roadmap" class="roadmappy-16 h-screen flex items-center">
-	<div class="container mx-auto px-4">
+<section id="roadmap" class="roadmap py-16 h-screen flex items-center pt-60 md:pt-16">
+  	<div class="container mx-auto px-4">
 		<h2 class="text-4xl font-bold text-center mb-12 hidden md:block">
 			PUNCH Roadmap
 		</h2>
@@ -37,7 +37,4 @@
 </section>
 
 <style>
-	.roadmap {
-		background: linear-gradient(to right, #1e40af, #ffffff, #ef4444);
-	}
 </style>

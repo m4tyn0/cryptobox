@@ -20,7 +20,7 @@
 	<div class="mt-10">
 		<a
 			href="/game"
-			class="bg-red-500 text-white py-2 px-4 rounded-lg text-lg mt-2 z-10 bottom-20"
+			class="bg-red-500 text-white py-2 px-4 rounded-lg text-lg mt-2 bottom-20"
 			>Enter the Ring</a
 		>
 	</div>

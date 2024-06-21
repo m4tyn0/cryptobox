@@ -1,4 +1,5 @@
 <script>
+    import Socials from "./Socials.svelte";
     let menuOpen = false;
 </script>
 
@@ -8,12 +9,14 @@
         alt=""
         class="w-12 sm:w-12 md:w-12 lg:w-12 xl:w-12"
     />
+    <div class="ml-40">
+    <Socials />
+    </div>
 
     <ul class={`${menuOpen ? 'block' : 'hidden'} md:flex gap-1 md:gap-4 pl-4 lg:gap-8`}>
         <li><a href="#home" class="text-black no-underline">Home</a></li>
-        <li><a href="#about" class="text-black no-underline">About</a></li>
+        <li><a href="#about" class="text-black no-underline">BUY</a></li>
         <li><a href="#roadmap" class="text-black no-underline">Roadmap</a></li>
-        <li><a href="#gameplay" class="text-black no-underline">Buy</a></li>
     </ul>
     <button class="md:hidden" on:click={() => (menuOpen = !menuOpen)}>
         <svg
