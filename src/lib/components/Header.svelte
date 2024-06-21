@@ -1,62 +1,38 @@
 <script>
-	let menuOpen = false;
+    let menuOpen = false;
 </script>
 
-<nav class="sticky-header">
-	<img
-		src="/images/PUNCH_LOGO.png"
-		alt=""
-		class="logo w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
-	/>
+<nav class="flex items-center justify-between p-4 bg-white bg-opacity-10 backdrop-blur-lg sticky top-0 z-50 text-black font-desporm">
+    <img
+        src="/images/PUNCH_LOGO.png"
+        alt=""
+        class="w-12 sm:w-12 md:w-12 lg:w-12 xl:w-12"
+    />
 
-	<ul class={`${menuOpen ? 'block' : 'hidden'} md:flex gap-1 lg:gap-4`}>
-		<li><a href="#home">Home</a></li>
-		<li><a href="#about">About</a></li>
-		<li><a href="#gameplay">Roadmap</a></li>
-		<li><a href="#gameplay">How to Buy</a></li>
-	</ul>
-	<button class="md:hidden" on:click={() => (menuOpen = !menuOpen)}>
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			fill="none"
-			viewBox="0 0 24 24"
-			stroke="currentColor"
-			class="h-6 w-6"
-		>
-			<path
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				stroke-width="2"
-				d="M4 6h16M4 12h16M4 18h16"
-			></path>
-		</svg>
-	</button>
+    <ul class={`${menuOpen ? 'block' : 'hidden'} md:flex gap-1 md:gap-4 pl-4 lg:gap-8`}>
+        <li><a href="#home" class="text-black no-underline">Home</a></li>
+        <li><a href="#about" class="text-black no-underline">About</a></li>
+        <li><a href="#roadmap" class="text-black no-underline">Roadmap</a></li>
+        <li><a href="#gameplay" class="text-black no-underline">Buy</a></li>
+    </ul>
+    <button class="md:hidden" on:click={() => (menuOpen = !menuOpen)}>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            class="h-6 w-6"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+        </svg>
+    </button>
 </nav>
 
 <style>
-	nav {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 1em;
-		background: rgba(255, 255, 255, 0.1);
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
-		position: sticky;
-		top: 0;
-		z-index: 1000;
-		color: #000;
-		font-family: 'DESPORM', sans-serif;
-	}
-	ul {
-		list-style: none;
-		gap: 1em;
-	}
-	li {
-		margin: 0;
-	}
-	a {
-		color: #000;
-		text-decoration: none;
-	}
+
 </style>

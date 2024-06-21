@@ -11,7 +11,7 @@
 		<img src="/images/PUNCH_LOGO.png" alt="BOX Logo" class="logo" />
 	</div>
 	<div class="mt-10">
-		<p>A meme game where</p>
+		<p>meme game where</p>
 		<p>Demucrats and Republikuns</p>
 		<p>fight it out</p>
 		<p>in the</p>

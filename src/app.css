@@ -8,6 +8,10 @@
   src: url('/fonts/ComicSans.ttf') format('truetype');
 }
 
+  .font-desporm {
+    font-family: 'DESPORM', sans-serif;
+}
+
 body {
 	margin: 0;
 	background: linear-gradient(to right, blue, white, red);
